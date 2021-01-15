@@ -13,6 +13,8 @@
 		B33EEFA025B031C50093A869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33EEF9E25B031C50093A869 /* Main.storyboard */; };
 		B33EEFA225B031C70093A869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33EEFA125B031C70093A869 /* Assets.xcassets */; };
 		B33EEFA525B031C70093A869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33EEFA325B031C70093A869 /* LaunchScreen.storyboard */; };
+		B33EEFB125B16B070093A869 /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B33EEFAF25B16B070093A869 /* wrongAnswer.mp3 */; };
+		B33EEFB225B16B070093A869 /* correctAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B33EEFB025B16B070093A869 /* correctAnswer.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B33EEFA125B031C70093A869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B33EEFA425B031C70093A869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33EEFA625B031C70093A869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33EEFAF25B16B070093A869 /* wrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswer.mp3; sourceTree = "<group>"; };
+		B33EEFB025B16B070093A869 /* correctAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctAnswer.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		B33EEF9725B031C50093A869 /* mathGameTimes */ = {
 			isa = PBXGroup;
 			children = (
+				B33EEFB025B16B070093A869 /* correctAnswer.mp3 */,
+				B33EEFAF25B16B070093A869 /* wrongAnswer.mp3 */,
 				B33EEF9825B031C50093A869 /* AppDelegate.swift */,
 				B33EEF9A25B031C50093A869 /* SceneDelegate.swift */,
 				B33EEF9C25B031C50093A869 /* ViewController.swift */,
@@ -125,7 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B33EEFA525B031C70093A869 /* LaunchScreen.storyboard in Resources */,
+				B33EEFB225B16B070093A869 /* correctAnswer.mp3 in Resources */,
 				B33EEFA225B031C70093A869 /* Assets.xcassets in Resources */,
+				B33EEFB125B16B070093A869 /* wrongAnswer.mp3 in Resources */,
 				B33EEFA025B031C50093A869 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
